@@ -3,27 +3,30 @@
     --main-padding:5px;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .container23{
     display:grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-rows: 0.5fr 1.5fr 1.2fr 0.8fr;
     grid-template-areas:
         "nav nav nav nav"
         "sidebar main main main"
-        "sidebar con1 con2 con3"
-        "sidebar footer footer footer";
-    grid-gap: 0.2rem;
-    font-family: "Inter", sans-serif;
+        "sidebar main main main"
+        "sidebar main main main";
+    grid-gap: 0.5rem;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 12px;
-    color: #004d40;
+    font-size: 18px;
+    color: #FFFFFF;
     text-align: center;
 }
 
 #nav23{
-    background: green;
+    background: #000000;
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
